@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="DemosJEE" transaction-type="RESOURCE_LOCAL">
-		<class>co.aptcom.aptcore.entity.AvmItemTipo</class>
-		<class>co.aptcom.aptcore.entity.AvmMenu</class>
-		<class>co.aptcom.aptcore.entity.AvmModulo</class>
-		<class>co.aptcom.aptcore.entity.AvmOpcion</class>
-		<class>co.aptcom.aptcore.entity.AvmPerfil</class>
-		<class>co.aptcom.aptcore.entity.AvmRecurso</class>
-		<class>co.aptcom.aptcore.entity.AvmRol</class>
-		<class>co.aptcom.aptcore.entity.AvmRolArbol</class>
-		<class>co.aptcom.aptcore.entity.AvmRolArbolPK</class>
-		<class>co.aptcom.aptcore.entity.AvmRolRecurso</class>
-		<class>co.aptcom.aptcore.entity.AvmRolRecursoPK</class>
-		<class>co.aptcom.aptcore.entity.AvmTipo</class>
-		<class>co.aptcom.aptcore.entity.AvmUsuario</class>
-		<class>co.aptcom.aptcore.entity.AvmUsuarioRol</class>
-		<class>co.aptcom.aptcore.entity.AvmUsuarioRolPK</class>
+		<class>co.aptcom.aptcore.entity.Domain</class>
+		<class>co.aptcom.aptcore.entity.DomainItem</class>
+		<class>co.aptcom.aptcore.entity.Menu</class>
+		<class>co.aptcom.aptcore.entity.Module</class>
+		<class>co.aptcom.aptcore.entity.OptionMenu</class>
+		<class>co.aptcom.aptcore.entity.Profile</class>
+		<class>co.aptcom.aptcore.entity.Resource</class>
+		<class>co.aptcom.aptcore.entity.Role</class>
+		<class>co.aptcom.aptcore.entity.RoleLevel</class>
+		<class>co.aptcom.aptcore.entity.RoleLevelPK</class>
+		<class>co.aptcom.aptcore.entity.RoleResource</class>
+		<class>co.aptcom.aptcore.entity.RoleResourcePK</class>
+		<class>co.aptcom.aptcore.entity.RoleUser</class>
+		<class>co.aptcom.aptcore.entity.RoleUserPK</class>
+		<class>co.aptcom.aptcore.entity.User</class>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.1.109:3306/aptcore"/>
 			<property name="javax.persistence.jdbc.user" value="aptcore"/>
